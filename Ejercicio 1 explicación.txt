@@ -1,0 +1,7 @@
+La tabla STUDENT se vincula a la tabla BOOTCAMP en una relación de 0 a muchos, ya que aunque pueda parecer raro 1 alumno se puede matricular en todos los BOOTCAMP si le apetece con el paso de los años y puede haber el caso de que algún alumno no se haya matriculado a ningún bootcamp todavía.
+
+La tabla PAYMENT se vincula a la tabla BOOTCAMP en relación de 1 a muchos, ya que un bootcamp puede tener muchos id de pagos ya que estos van vinculados a su vez a distintos alumnos que realizan estos pagos.
+
+La tabla MODULE va vinculada a la tabla BOOTCAMP en relación de 1 o muchos a 1 o muchos porque en este caso un modulo se puede dar en distintos bootcamps por ejemplo el bootcamp de ia y big data son diferentes y ambos comparten el modulo de SQL.
+
+La tabla TEACHER va vinculada a la tabla BOOTCAMP de 1 o muchos a 1 o muchos ya que los profesores pueden impartir clases en distintos bootcamp.
